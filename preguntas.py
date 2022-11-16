@@ -7,7 +7,7 @@ En este laboratio se construirá un clasificador usando k-NN para el dataset de 
 """
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
+
 from sklearn import datasets
 
 
@@ -27,6 +27,7 @@ def pregunta_01():
 
     # Imprima las dimensiones del vector de salida
     print(digits.target.shape)
+
     
 def pregunta_02():
     """
