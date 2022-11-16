@@ -15,10 +15,6 @@ def pregunta_01():
     """
     Complete el código presentado a continuación.
     """
-    import matplotlib.pyplot as plt
-    import numpy as np
-    import pandas as pd
-    from sklearn import datasets
 
     # Cargue el dataset digits
     digits = datasets.load_digits()
@@ -36,10 +32,7 @@ def pregunta_02():
     """
     Complete el código presentado a continuación.
     """
-    import matplotlib.pyplot as plt
-    import numpy as np
-    import pandas as pd
-    from sklearn import datasets
+
     # Importe KNeighborsClassifier de sklearn.neighbors
     from sklearn.neighbors import KNeighborsClassifier
 
@@ -59,7 +52,7 @@ def pregunta_02():
     (X_train, X_test, y_train, y_test,) = train_test_split(
         X,
         y,
-        test_size=0.2,
+        test_size=0.867,
         random_state=42,
     )
 
